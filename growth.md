@@ -77,9 +77,9 @@
 ### 2) 전환율 (Conversion rate)
 
 - 전환율은 한 단계에서 다음 단계로 넘어가는 사용자의 비율을 의미한다. - ex) 가입 -> 결제 전환율 - 전환율은 사용성이나 UI/UX의 영향을 많이 받는 지표이긴 하지만, 불편함(문제)를 잘 해소하는 제품을 만들었다면 사용자는 어느 정도의 불편함을 감수할 수 있다.
-  <img width="934"  alt="Pasted image 20250924230647" src="https://github.com/user-attachments/assets/6135d8c9-d514-4e30-932f-503fde0fa285" />
+  <img width="600"  alt="Pasted image 20250924230647" src="https://github.com/user-attachments/assets/6135d8c9-d514-4e30-932f-503fde0fa285" />
 
-<img width="1485"  alt="Pasted image 20250924230749" src="https://github.com/user-attachments/assets/417b9eaf-4447-4fa3-9dd1-cd424e2e10d8" />
+<img width="1000"  alt="Pasted image 20250924230749" src="https://github.com/user-attachments/assets/417b9eaf-4447-4fa3-9dd1-cd424e2e10d8" />
 - 전환율 또한 서비스 카테고리에 따라 지표가 달라질 수 있다.
 
 - _똑같은 상품에 대한 전환이라도 친구 초대를 통해 들어온 사람과 디스플레이 광고를 통해 들어온 사람은 전환율에 차이가 난다._
@@ -145,8 +145,13 @@
 
 <br>
 
-- AARRR : 서비스 라이프 사이클 전반에 걸친 핵심지표를 찾고 관리하기 - 고객 유치, 획득(Acquisition) : 사용자들을 어떻게 데려올 것인가? - 활성화 (Activation) : 사용자들이 우리 서비스의 핵심 기능을 통해 충성 고객이 될 수 있는가 - 리텐션 (Retension) : 사용자들이 우리 서비스에 지속적으로 방문하는가? - 수익화 (Revenue) : 사용자들이 우리 서비스의 핵심 기능을 사용하기 위해 결제를 하는가? - 추천 (Referral) : 사용자들이 우리 서비스를 주변 지인들에게 소개, 추천하는가?
-  <img width="830"  alt="Pasted image 20250924232516" src="https://github.com/user-attachments/assets/5fb6ea67-b38a-4c46-8a53-c69e3fcf36a5" />
+- AARRR : 서비스 라이프 사이클 전반에 걸친 핵심지표를 찾고 관리하기
+- 고객 유치, 획득(Acquisition) : 사용자들을 어떻게 데려올 것인가?
+- 활성화 (Activation) : 사용자들이 우리 서비스의 핵심 기능을 통해 충성 고객이 될 수 있는가
+- 리텐션 (Retension) : 사용자들이 우리 서비스에 지속적으로 방문하는가?
+- 수익화 (Revenue) : 사용자들이 우리 서비스의 핵심 기능을 사용하기 위해 결제를 하는가?
+- 추천 (Referral) : 사용자들이 우리 서비스를 주변 지인들에게 소개, 추천하는가?
+  <img width="600"  alt="Pasted image 20250924232516" src="https://github.com/user-attachments/assets/5fb6ea67-b38a-4c46-8a53-c69e3fcf36a5" />
 
 ### AARRR의 대표적인 오해
 
@@ -187,7 +192,7 @@
 - 핵심 가치를 경험하는 시점과 그곳으로 연결되는 각 단계를 잘 정의했는가?
 - 각 단계별 전환율을 어떤 기준으로 측정하는가?
 - 코호트(Cohort : 사용자 특성에 따른 그룹)에 따른 퍼널별 전환율을 보고 있는가?
-  <img width="808"  alt="Pasted image 20250925002942" src="https://github.com/user-attachments/assets/dd108fe3-af6e-4361-9f68-cee6238b4deb" />
+  <img width="600"  alt="Pasted image 20250925002942" src="https://github.com/user-attachments/assets/dd108fe3-af6e-4361-9f68-cee6238b4deb" />
 
 ### 핵심 가치
 
@@ -195,7 +200,7 @@
 - 아하 모먼트, 머스트해브 라는 용어로도 사용된다.
 - 핵심가치는 서비스 제공자가 아니라 사용자 입장에서 정의 되어야 한다.
 - 서비스에 진입하는 순간부터 핵심 가치를 경험하기까지의 경로를 크리티컬 패스 라고 한다.
-  <img width="852"  alt="Pasted image 20250925003208" src="https://github.com/user-attachments/assets/c37f77bd-4214-46c6-8c57-008575b768f1" />
+  <img width="600"  alt="Pasted image 20250925003208" src="https://github.com/user-attachments/assets/c37f77bd-4214-46c6-8c57-008575b768f1" />
 
 ### 퍼널별 전환율 높이는 방법
 
@@ -229,7 +234,7 @@
 활성화 단계에서 이탈이 많은 경로가 어디인지 살펴보면 초기 유지율이 떨어지는 것을 보완하는 데 도움이 된다.
 사용자가 서비스에 처음으로 들어와서 **가입하는 동선**, 서비스의 **핵심 기능을 사용하는 프로세스** 등을 단계별로 쪼개서 살펴보는 것이 좋다.
 
-<img width="954"  alt="Pasted image 20250924234558" src="https://github.com/user-attachments/assets/1a754692-92a3-407f-9e34-97667123a7d0" />
+<img width="700"  alt="Pasted image 20250924234558" src="https://github.com/user-attachments/assets/1a754692-92a3-407f-9e34-97667123a7d0" />
 
 ## 수익화
 
@@ -290,14 +295,14 @@
 
 - 쪼개진 데이터에서 성립하는 관계가 합쳐진 데이터에서는 반대로 나타나는 현상
 - 남성의 특정 대학 합격률이 매우 낮다 - 알고보니, 경쟁률이 높고 합격률이 낮은 학과에 남학생들이 상대적으로 많이 지원했기 떄문에 발생한 오차
-  <img width="800"  alt="Pasted image 20250925002557" src="https://github.com/user-attachments/assets/c34957b7-2c0b-4041-a8de-0d58c6e6add4" />
+  <img width="600"  alt="Pasted image 20250925002557" src="https://github.com/user-attachments/assets/c34957b7-2c0b-4041-a8de-0d58c6e6add4" />
 
 ## 생존자 편향 피하기
 
 - 전투기들의 생존율을 높이기 위해, 귀환한 전투기들이 어디에 적탄을 맞았는지 조사하여 피격 부위에 장갑을 보완하는 프로젝트를 진행했다. 날개 부위 등에 집탄율이 많은 것으로 확인
 - 그러나 '귀환에 성공한' 전투기였다는 점에서 편향된 정보가 발생된다.
 - 실제로는 추락한 비행기들의 정보도 수집하여 엔진과 조조성을 집중적으로 보강해야 했다.
-  <img width="1200"  alt="Pasted image 20250925002625" src="https://github.com/user-attachments/assets/6caf49e6-7e2f-49d8-8cf9-3ab7247da3a8" />
+  <img width="800"  alt="Pasted image 20250925002625" src="https://github.com/user-attachments/assets/6caf49e6-7e2f-49d8-8cf9-3ab7247da3a8" />
 
 ## 지금 가장 중요한 지표 OMTM(One Metric That Matters)
 
@@ -309,7 +314,7 @@
   - 우리가 원하는 행동을 하는 사용자와 그렇지 않은 사용자는 무엇이 가장 다른가?
   - 위 사용자를 구분할 수 있는 이벤트나 속성은 무엇인가? 그 추세가 달라지는 지점은 어디인가?
 - OMTM의 가장 흔한 실수는 매출을 지표로 결정하는 것이다. - 매출은 완벽한 후행 지표이기 때문이다. - 매출은 어떤 원인에 의해 결과적으로 드러나는 성적표다.
-  <img width="1078"  alt="Pasted image 20250925002659" src="https://github.com/user-attachments/assets/37580371-d8eb-4999-86a4-77efa8693d28" />
+  <img width="800"  alt="Pasted image 20250925002659" src="https://github.com/user-attachments/assets/37580371-d8eb-4999-86a4-77efa8693d28" />
 
 # 05장 그로스해킹 시작부터, 성장 실험까지
 
