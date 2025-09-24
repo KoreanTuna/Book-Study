@@ -1,14 +1,3 @@
-```table-of-contents
-title: 
-style: nestedList # TOC style (nestedList|nestedOrderedList|inlineFirstLevel)
-minLevel: 0 # Include headings from the specified level
-maxLevel: 0 # Include headings up to the specified level
-include: 
-exclude: 
-includeLinks: true # Make headings clickable
-hideWhenEmpty: false # Hide TOC if no headings are found
-debugInConsole: false # Print debug info in Obsidian console
-```
 
 # 01장 그로스 해킹이란?
 
@@ -31,7 +20,7 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ## 뭘 해야하는지 모르는게 문제
 
-> [!NOTE] - 보통의 제품이나 서비스 개발 모습
+- 보통의 제품이나 서비스 개발 모습
 > 1. (엄청난) 아이디어가 있다
 > 2. 여럽사리 멤버들을 모아서 제품을 만들기 시작한다
 > 3. 6개월 후에 드디어 제품이 개발됐다. 곧 릴리스할 수 있을 것 같다!
@@ -49,6 +38,7 @@ debugInConsole: false # Print debug info in Obsidian console
 	- "사실 지금은 (시간과 자원이 부족해서) 원래 하려고 했던 기능의 30% 정도만 만들어서 내놓았스니까 서비스에 새로운 기능을 추가해서 완성도를 높이자!"
 	- --> 이 시점에 할 수 있는 가장 나쁜 결정
 	- --> 뭐가 문제인지를 모르는 것이 가장 큰 문제
+
 ##  가장 많이 하는 실수
 1. 제품을 먼저 만들고, 그런 다음에야 고객을 찾는다
 	- 논리적인(?) 기획서를 바탕으로 제품을 우선 만든 다음, 제품이 나오고 나서야 뒤늦게 고객을 설득하려는 경우가 무척 많다.
@@ -64,30 +54,38 @@ debugInConsole: false # Print debug info in Obsidian console
 	- 우리가 만든 제품이 그 문제를 해결한게 맞나?
 	- 이 제품을 만들면서 세운 가설이 무엇인가? 그 가설이 검증됐는가?
 
+
 ## PMF 만족 확인 지표
 ### 1) 리텐션(Retention Rate)
 - PMF 만족 서비스는 그래프가 완만해지면서 안정적인 패턴을 보인다.
 - 리텐션에 영향을 미치는 핵심기간은 서비스를 사용하기 시작한 직후부터 수일 이내.
 	- --> 서비스에 대한 온보딩 과정이 매우 중요하다.
-![[Pasted image 20250924230051.png]]
+<img width="514" height="607" alt="Pasted image 20250924230051" src="https://github.com/user-attachments/assets/2a40ecfb-7bb3-4c62-9a3d-24af1fded7c4" />
+
 
 - 앱 카테고리 별로 기준 리텐션 비율을 다를 수 있다.
-![[Pasted image 20250924230346.png]]
+<img width="2400" height="1413" alt="Pasted image 20250924230346" src="https://github.com/user-attachments/assets/8413ec21-ca7f-4b54-b821-e9c451ef207c" />
+
 
 ### 2) 전환율 (Conversion rate)
 - 전환율은 한 단계에서 다음 단계로 넘어가는 사용자의 비율을 의미한다.
 	- ex) 가입 -> 결제 전환율
 	- 전환율은 사용성이나 UI/UX의 영향을 많이 받는 지표이긴 하지만, 불편함(문제)를 잘 해소하는 제품을 만들었다면 사용자는 어느 정도의 불편함을 감수할 수 있다.
-![[Pasted image 20250924230647.png]]
+<img width="934" height="546" alt="Pasted image 20250924230647" src="https://github.com/user-attachments/assets/6135d8c9-d514-4e30-932f-503fde0fa285" />
+
 - 전환율 또한 서비스 카테고리에 따라 지표가 달라질 수 있다.
-![[Pasted image 20250924230749.png]]
+<img width="1485" height="985" alt="Pasted image 20250924230749" src="https://github.com/user-attachments/assets/417b9eaf-4447-4fa3-9dd1-cd424e2e10d8" />
+
 * *똑같은 상품에 대한 전환이라도 친구 초대를 통해 들어온 사람과 디스플레이 광고를 통해 들어온 사람은 전환율에 차이가 난다.*
+
+
 ### 3) 순수 추천 지수(Net Promoter Score, NPS)
 - "이 서비스를 주변 지인이나 친구에게 얼마나 추천하고 싶으신가요?" 
 - 서비스를 적당히 좋아하는 1000명의 사용자보다는 서비스를 열렬히 사랑하는 100명의 충성 사용자를 확보했을 때 그 서비스가 성공할 확률이 크게 높아진다.
 - 누적 설치수나, 가입수 지표는 PMF와 크게 연관이 없다. 제품의 본질적인 경쟁력과는 상관이 없기 때문이다.
+<img width="636" height="393" alt="Pasted image 20250924230940" src="https://github.com/user-attachments/assets/567c01c5-5cbc-4249-be71-15ffd7e0f30a" />
 
-![[Pasted image 20250924230940.png]]
+
 
 ## 지금 잘 안된다고 생각된다면 무엇부터?
 ### 해서는 안되는 것
@@ -123,19 +121,24 @@ debugInConsole: false # Print debug info in Obsidian console
 		- 검색 광고 개선과 CS처리를 효율적으로 하기 위한 관리자 화면 개선을 동시에 요청받았다면 개발팀은 어떤 업무를 우선적으로 처리해야 할까? --> 당연히 마케팅과 운영 모두 자신이 속한 팀과 관련된 업무가 더 중요하고 시급하다고 생각하게 된다.
 	- 팀별로 진행중인 업무가 언제든 추가되거나 변경될 수 있기 때문에, 모니터링하는 지표가 수시로 달라질 수 있다.
 - 이런 방식으로 만들어진 보고서에는 지표가 '성장'을 위해 활용되기 보다 각 팀별로 '놀지 않았다'는 것을 증명하기 위해 사용된다.
+
+<br>
 ## AARRR
 - 사용자의 서비스 이용 흐름(Use Flow)에 따라 단계별 주요 지표를 전체 서비스 관점에서 정의 해야한다.
 	- 유저가 들어오고 나가는 순간을 모두 포괄
 - Task-Based는 과업 정의 후 과업을 진행하며 발생하는 숫자를 지표로 관리
 - AARRR기반 지표 관리는 서비스 이용흐름에 따른 지표를 정의하고, 해당 지표를 개선하기 위한 과업을 수행한다.
-![[Pasted image 20250924232231.png]]
+<img width="480" height="333" alt="Pasted image 20250924232231" src="https://github.com/user-attachments/assets/1facfb47-b4a7-4866-a569-acdbd8277f8d" />
+
 - AARRR :  서비스 라이프 사이클 전반에 걸친 핵심지표를 찾고 관리하기
 	- 고객 유치, 획득(Acquisition) : 사용자들을 어떻게 데려올 것인가?
 	- 활성화 (Activation) : 사용자들이 우리 서비스의 핵심 기능을 통해 충성 고객이 될 수 있는가
 	- 리텐션 (Retension) : 사용자들이 우리 서비스에 지속적으로 방문하는가?
 	- 수익화 (Revenue) : 사용자들이 우리 서비스의 핵심 기능을 사용하기 위해 결제를 하는가?
 	- 추천 (Referral) : 사용자들이 우리 서비스를 주변 지인들에게 소개, 추천하는가?
-![[Pasted image 20250924232516.png]]
+<img width="830" height="600" alt="Pasted image 20250924232516" src="https://github.com/user-attachments/assets/5fb6ea67-b38a-4c46-8a53-c69e3fcf36a5" />
+
+
 ### AARRR의 대표적인 오해
 1. 단순히 각 단계별로 지표를 모니터링 하는 것 아닌가?
 	- 중요한 것은 서비스의 특성에 따라 카테고리 별로 어떤 지표를 봐야할지 선정하는 과정. 그리고 지표를 개선하기 위해 어떤 실험을 어떤 우선순위에 따라 진행할지를 결정하고 실행하는것이다.
@@ -148,6 +151,8 @@ debugInConsole: false # Print debug info in Obsidian console
  - 각 단계의 핵심이 되는 주요 지표를 선정하고, 해당 지표의 현재 수준을 측정한다.
  - 측정된 지표가 가지는 의미를 이해한다.
  - 개선해야 하는 목표 수준을 정하고, 실험을 통해 단계적으로 개선한다.
+
+
 ## 획득(Acquisition)
 - 무료 획득 / 유료획득 : 자발적으로 우리 서비스를 찾아온 고객 vs 유료 마케팅 채널을 통해 찾아온 고객
 	- 유입채널 식별할 수 없는 사용자 줄이기
@@ -156,6 +161,7 @@ debugInConsole: false # Print debug info in Obsidian console
 - 어트리뷰션 윈도우 : 마케팅 이벤트가 발생한 후 목표성과가 발생하기 까지의 시간
 	- 인스타그램 광고 클릭 -> 3일 -> 앱 설치 
 	- 얼마만큼의 시간을 유의미하다고 판단할 것인가.
+
 ## 활성화
 - 새롭게 가입한 사용자들이 온보딩 프로세스를 성공적으로 마무리하는 비율은 높지 않다.
 - 구매의도를 가진 사용자들이 구매 프로세스 도중 이탈하지 않고 마지막까지 전환되게 하는 것도 어려운 일이다.
@@ -165,14 +171,16 @@ debugInConsole: false # Print debug info in Obsidian console
 - 핵심 가치를 경험하는 시점과 그곳으로 연결되는 각 단계를 잘 정의했는가?
 - 각 단계별 전환율을 어떤 기준으로 측정하는가?
 - 코호트(Cohort : 사용자 특성에 따른 그룹)에 따른 퍼널별 전환율을 보고 있는가?
-![[Pasted image 20250925002942.png]]
+<img width="808" height="541" alt="Pasted image 20250925002942" src="https://github.com/user-attachments/assets/dd108fe3-af6e-4361-9f68-cee6238b4deb" />
+
 
 ### 핵심 가치
 - 우리 서비스를 이용하면서 목적했던 바를 달성하거나 기대를 충족하는 순간!
 - 아하 모먼트, 머스트해브 라는 용어로도 사용된다.
 - 핵심가치는 서비스 제공자가 아니라 사용자 입장에서 정의 되어야 한다.
 - 서비스에 진입하는 순간부터 핵심 가치를 경험하기까지의 경로를 크리티컬 패스 라고 한다.
--![[Pasted image 20250925003208.png]]
+<img width="852" height="336" alt="Pasted image 20250925003208" src="https://github.com/user-attachments/assets/c37f77bd-4214-46c6-8c57-008575b768f1" />
+
 
 ### 퍼널별 전환율 높이는 방법
 - 개인화
@@ -193,6 +201,8 @@ debugInConsole: false # Print debug info in Obsidian console
 	- 구매 완료
 	- 재구매
 	- 콘텐츠 시청
+
+ 
 ### 리텐션을 개션하는 방법은 시점에 따라 크게 2가지로 나눠서 생각해 볼 수 있다.
 
 - 초기에 리텐션이 떨어지는 속도 늦추기
@@ -205,8 +215,10 @@ debugInConsole: false # Print debug info in Obsidian console
 NUX(New User Experience, 신규 사용자 경험)라고 부른다.
 
 사용자가 서비스에 처음으로 들어와서 **가입하는 동선**, 서비스의 **핵심 기능을 사용하는 프로세스** 등을 단계별로 쪼개서 살펴보는 것이 좋다.
+<img width="954" height="411" alt="Pasted image 20250924234558" src="https://github.com/user-attachments/assets/1a754692-92a3-407f-9e34-97667123a7d0" />
 
-![[Pasted image 20250924234558.png]]
+
+
 ## 수익화 패스
 ### 수익화 관련 주요 지표
 
@@ -258,12 +270,13 @@ NUX(New User Experience, 신규 사용자 경험)라고 부른다.
 - 쪼개진 데이터에서 성립하는 관계가 합쳐진 데이터에서는 반대로 나타나는 현상
 - 남성의 특정 대학 합격률이 매우 낮다
 	- 알고보니, 경쟁률이 높고 합격률이 낮은 학과에 남학생들이 상대적으로 많이 지원했기 떄문에 발생한 오차
-![[Pasted image 20250925002557.png]]
+<img width="800" height="800" alt="Pasted image 20250925002557" src="https://github.com/user-attachments/assets/c34957b7-2c0b-4041-a8de-0d58c6e6add4" />
+
 ## 생존자 편향 피하기
 - 전투기들의 생존율을 높이기 위해, 귀환한 전투기들이 어디에 적탄을 맞았는지 조사하여 피격 부위에 장갑을 보완하는 프로젝트를 진행했다. 날개 부위 등에 집탄율이 많은 것으로 확인
 - 그러나 '귀환에 성공한' 전투기였다는 점에서 편향된 정보가 발생된다.
 - 실제로는 추락한 비행기들의 정보도 수집하여 엔진과 조조성을 집중적으로 보강해야 했다.
-![[Pasted image 20250925002625.png]]
+<img width="1200" height="897" alt="Pasted image 20250925002625" src="https://github.com/user-attachments/assets/6caf49e6-7e2f-49d8-8cf9-3ab7247da3a8" />
 
 ## 지금 가장 중요한 지표 OMTM(One Metric That Matters)
 - OMTM의 가치는 구성원들이 바라보는 방향성을 일치시키고 자원을 집중하는데서 나온다.
@@ -276,7 +289,7 @@ NUX(New User Experience, 신규 사용자 경험)라고 부른다.
 - OMTM의 가장 흔한 실수는 매출을 지표로 결정하는 것이다.
 	- 매출은 완벽한 후행 지표이기 때문이다.
 	- 매출은 어떤 원인에 의해 결과적으로 드러나는 성적표다.
-![[Pasted image 20250925002659.png]]
+<img width="1078" height="602" alt="Pasted image 20250925002659" src="https://github.com/user-attachments/assets/37580371-d8eb-4999-86a4-77efa8693d28" />
 
 # 05장 그로스해킹 시작부터, 성장 실험까지
 - 발생하는 모든 이벤트를 기록해야 한다는 생각을 버리고, 분석에 필요한 이벤트를 정확하게 적재하는 것이 핵심
