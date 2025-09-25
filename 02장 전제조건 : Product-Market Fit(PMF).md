@@ -47,6 +47,7 @@
 
 - PMF 만족 서비스는 그래프가 완만해지면서 안정적인 패턴을 보인다.
 - 리텐션에 영향을 미치는 핵심기간은 서비스를 사용하기 시작한 직후부터 수일 이내. - **서비스에 대한 온보딩 과정이 매우 중요하다.**
+<br>
   <img width="514"  alt="Pasted image 20250924230051" src="https://github.com/user-attachments/assets/2a40ecfb-7bb3-4c62-9a3d-24af1fded7c4" />
 
 <img width="1200"  alt="Pasted image 20250924230346" src="https://github.com/user-attachments/assets/8413ec21-ca7f-4b54-b821-e9c451ef207c" />
