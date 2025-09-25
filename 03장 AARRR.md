@@ -34,6 +34,7 @@
 - 리텐션 (Retension) : 사용자들이 우리 서비스에 지속적으로 방문하는가?
 - 수익화 (Revenue) : 사용자들이 우리 서비스의 핵심 기능을 사용하기 위해 결제를 하는가?
 - 추천 (Referral) : 사용자들이 우리 서비스를 주변 지인들에게 소개, 추천하는가?
+<br>
   <img width="600"  alt="Pasted image 20250924232516" src="https://github.com/user-attachments/assets/5fb6ea67-b38a-4c46-8a53-c69e3fcf36a5" />
 
 ### AARRR의 대표적인 오해
@@ -75,6 +76,7 @@
 - 핵심 가치를 경험하는 시점과 그곳으로 연결되는 각 단계를 잘 정의했는가?
 - 각 단계별 전환율을 어떤 기준으로 측정하는가?
 - 코호트(Cohort : 사용자 특성에 따른 그룹)에 따른 퍼널별 전환율을 보고 있는가?
+<br>
   <img width="600"  alt="Pasted image 20250925002942" src="https://github.com/user-attachments/assets/dd108fe3-af6e-4361-9f68-cee6238b4deb" />
 
 ### 핵심 가치
@@ -83,6 +85,7 @@
 - 아하 모먼트, 머스트해브 라는 용어로도 사용된다.
 - 핵심가치는 서비스 제공자가 아니라 사용자 입장에서 정의 되어야 한다.
 - 서비스에 진입하는 순간부터 핵심 가치를 경험하기까지의 경로를 크리티컬 패스 라고 한다.
+<br>
   <img width="600"  alt="Pasted image 20250925003208" src="https://github.com/user-attachments/assets/c37f77bd-4214-46c6-8c57-008575b768f1" />
 
 ### 퍼널별 전환율 높이는 방법
