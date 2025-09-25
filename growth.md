@@ -1,5 +1,6 @@
 # 그로스해킹 (양승화 저)
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/5facb8a5-a843-460a-b62d-cfb52d79fbd2" />
+
 - 네이버, 이음소시어스, SK텔레콤
 - 마이리얼트립 그로스실 실장
 
